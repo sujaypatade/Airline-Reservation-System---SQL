@@ -1,3 +1,4 @@
+create database airline_reservation_system ;
 CREATE TABLE airlines (
     airline_id INT PRIMARY KEY AUTO_INCREMENT,
     airline_code VARCHAR(3) UNIQUE NOT NULL,
